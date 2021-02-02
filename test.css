@@ -1,0 +1,23 @@
+<p style="color:blue;"> paragraph is blue </p>
+/*this is inline 
+style can be used for selectors*/
+
+<style>
+	h1 {
+	color: green;
+	}
+	h2 {
+	color: blue;
+	}
+</style>
+
+/*this is internal css
+
+ matches to all h1  
+
+class selectors*/
+.fancy {
+	font-style:italic;
+}
+
+# is for id can be used to link to part of a page using <a href=#example>
