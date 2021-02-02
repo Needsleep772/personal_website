@@ -1,0 +1,8 @@
+body{
+	background-color:lightblue;
+}
+h1{
+	color:rgb(0, 110, 37);
+}
+
+# is for id can be used to link to part of a page using <a href=#example>
