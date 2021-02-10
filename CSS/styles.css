@@ -14,12 +14,14 @@ p{
 }
 .navbar{
 	background:#e59500;
+	font-family: 'Roboto', sans-serif;
 	font-size: 75px;
 	border: 5px dotted;
 }
 
 .navbar2{
 	background: #e5DADA;
+	font-family: 'Roboto', sans-serif;
 	font-size: 70px;
 	border: 5px solid;
 }
