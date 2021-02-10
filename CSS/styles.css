@@ -1,8 +1,31 @@
 body{
-	background-color:lightblue;
+	background-color:#02040f;
 }
 h1{
-	color:rgb(0, 110, 37);
+	color:#e59500;
+}
+p{
+	color: #e5DADA;
+	font-size: 50px;
+}
+.cant_see{
+	color: #e5DADA;
+	font-size: 50px;
+}
+.navbar{
+	background:#e59500;
+	font-size: 75px;
+	border: 5px dotted;
+}
+
+.navbar2{
+	background: #e5DADA;
+	font-size: 70px;
+	border: 5px solid;
+}
+a{	
+	color: #02040f;
+	font-size: 200;
 }
 
 # is for id can be used to link to part of a page using <a href=#example>
