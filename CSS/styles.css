@@ -8,9 +8,9 @@ p{
 	color: #e5DADA;
 	font-size: 50px;
 }
-p.class_absolute{
+p.class_relative{
 	position: relative;
-	top: 1000px; left: 20;
+	top: 1500px; left: 20;
 }
 .cant_see{
 	color: #e5DADA;
@@ -19,25 +19,37 @@ p.class_absolute{
 .navbar{
 	background:#e59500;
 	font-family: 'Roboto', sans-serif;
-	font-size: 75px;
+	font-size: 2.5rem;
 	border: 5px dotted;
 	position: -webkit-sticky;
 	position: sticky;
-	top: 0px;
+	top: 5px;
+	padding:5px;
 }
 
 .navbar2{
 	background: #e5DADA;
 	font-family: 'Roboto', sans-serif;
-	font-size: 70px;
-	border: 5px solid;
+	font-size: 2.5rem;
+	border: 2px solid;
+	padding: 5px;
 }
 a{	
 	color: #02040f;
 	font-size: 200;
 }
+a:hover{
+	color:#e5DADA;
+}
+a:hover.navbar2{
+	color:#e59500;
+}
+a.navbar{	
+	border: 2px solid;
+	padding: 5px;
+}
 
-img {
+img.about_me{
 	float: left;
 	height: 380px;
 }
