@@ -8,22 +8,26 @@ p{
 	color: #e5DADA;
 	font-size: 50px;
 }
-p.class_relative{
-	position: relative;
-	top: 1500px; left: 20;
-}
 .cant_see{
 	color: #e5DADA;
 	font-size: 50px;
 }
-.navbar{
+
+nav{
 	background:#e59500;
+	top: 0px;
+	border: 5px dotted;
+	padding:5px;
+}
+.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+}
+.navbar{
+
 	font-family: 'Roboto', sans-serif;
 	font-size: 2.5rem;
 	border: 5px dotted;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 5px;
 	padding:5px;
 }
 
@@ -46,9 +50,7 @@ a:hover.navbar2{
 }
 a.navbar{	
 	border: 2px solid;
-	padding: 5px;
 }
-
 img.about_me{
 	float: left;
 	height: 380px;
